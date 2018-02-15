@@ -298,8 +298,8 @@ echo "zend_extension =ioncube_loader_lin_5.6.so" >> /app/.heroku/php/etc/php/php
 # special treatment for Blackfire; we enable it if we detect a server id and a server token for it
 install_blackfire_ext
 # special treatment for New Relic; we enable it if we detect a license key for it
-install_newrelic_ext
-install_newrelic_userini
+#install_newrelic_ext
+#install_newrelic_userini
 
 # done with platform installs; restore COMPOSER from previous value
 export COMPOSER="$COMPOSER_bak"
