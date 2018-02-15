@@ -23,7 +23,7 @@ echo ext_dir
 bin_dir=${OUT_PREFIX}/bin
 mkdir -p ${ext_dir}
 mkdir -p ${bin_dir}
-cp ioncube_loader_lin_5.6_ts.so ${ext_dir}/ioncube_loader_lin_5.6_ts.so
+cp ioncube_loader_lin_7.2_ts.so ${ext_dir}/ioncube_loader_lin_7.2_ts.so
 popd
 
 echo "-----> Done."
